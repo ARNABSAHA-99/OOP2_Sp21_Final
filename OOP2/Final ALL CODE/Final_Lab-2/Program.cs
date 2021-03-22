@@ -16,6 +16,9 @@ namespace Final_Lab_2
             a1.Withdraw(5000);
             a1.Deposit(1000);
             a2.Transfer(a2, 10000);
+            Console.WriteLine("**************************************");
+            a1.ShowAllTransaction();
+            a2.ShowAllTransaction();
             a1.ShowInfo();
             a2.ShowInfo();
         }

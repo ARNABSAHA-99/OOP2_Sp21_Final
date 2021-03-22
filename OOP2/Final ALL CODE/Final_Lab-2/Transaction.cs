@@ -25,16 +25,16 @@ namespace Final_Lab_2
             Receiver = receiver;
             Amount = amount;
             AdditionalInfo = additionalinfo;
-            Console.WriteLine("4 Parameter Constructor");
+            
 
         }
 
         public void ShowInfo()
         {
-            Console.WriteLine("Sender Name {0}: Account No {1} & Amount is {2}", Sender.AccName,Sender.AccNo,Amount);
-            Console.WriteLine("Receiver Name {0}: Account No {1} & Amount is {2}", Receiver.AccName,Receiver.AccNo,Amount );
-            Console.WriteLine("Tranfered Amount {0}: ", Amount);
-            Console.WriteLine("Purpose of Transaction {0}: ", AdditionalInfo);
+            Console.WriteLine("Sender Name: {0}; Account No: {1} & Amount send= {2}", Sender.AccName,Sender.AccNo,Amount);
+            Console.WriteLine("Receiver Name: {0}; Account No: {1} & Amount receive= {2}", Receiver.AccName,Receiver.AccNo,Amount );
+            Console.WriteLine("Transfered Amount {0}= ", Amount);
+            Console.WriteLine("Purpose of Transaction {0} ", AdditionalInfo);
         }
     }
 }

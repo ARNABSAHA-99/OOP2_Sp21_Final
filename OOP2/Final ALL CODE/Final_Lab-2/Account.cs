@@ -47,6 +47,7 @@ namespace Final_Lab_2
         public void Deposit(double amount)
         {
             Balance += amount;
+            Console.WriteLine("Your Account has been credited by {0}",amount);
         }
 
         virtual public void Withdraw(double amount) 
@@ -68,7 +69,7 @@ namespace Final_Lab_2
                 this.Balance -= amount;
                 acc.Balance += amount;
                 Console.WriteLine("Your Account has been debitated by {0} to {1} ({2}) ", amount, acc.AccName, acc.AccNo);
-                Transaction t= new Transaction(this, acc, amount,"Money Transfer");
+                Transaction t= new Transaction(this, acc, amount,"Business Purporses");
                 this.AddTransaction(t);
                 acc.AddTransaction(t);
                 

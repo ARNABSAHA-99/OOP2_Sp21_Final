@@ -11,23 +11,18 @@ namespace Lab2_StudentCourse
 
         public static int StudentLimit = 30;
         private Student[] students;
-
         public Course()
         {
             this.students = new Student[Course.StudentLimit];
         }
-
         public Course(string id, string name)
         {
             this.Id = id;
             this.Name = name;
             this.students = new Student[Course.StudentLimit];
         }
-
         public string Id { set; get; }
-
         public string Name { set; get; }
-
         public int StudentCount { set; get; }
 
         public void AddStudent(params Student[] stdns)
@@ -42,7 +37,6 @@ namespace Lab2_StudentCourse
                 }
             }
         }
-
         public void RemoveStudent(Student s)
         {
             if (s == this.students[this.StudentCount - 1])
@@ -65,7 +59,6 @@ namespace Lab2_StudentCourse
                     this.students[i] = this.students[i + 1];
             }
         }
-
         public Student GetStudent(string id)
         {
             for (int i = 0; i < this.StudentCount; ++i)
@@ -74,7 +67,6 @@ namespace Lab2_StudentCourse
 
             return null;
         }
-
         public void PrintStudent()
         {
             for (int i = 0; i < this.StudentCount; ++i)
@@ -82,7 +74,6 @@ namespace Lab2_StudentCourse
                 this.students[i].ShowInfo();
             }
         }
-
         public void ShowCourseInfo()
         {
             Console.WriteLine("Course Name: {0}", this.Name);

@@ -15,7 +15,6 @@ namespace Lab2_StudentCourse
         {
             this.courses = new Course[Student.CourseLimit];
         }
-
         public Student( string name, string id, float cgpa)
         {
             this.Name = name;
@@ -23,11 +22,8 @@ namespace Lab2_StudentCourse
             this.Cgpa = cgpa;
             this.courses = new Course[Student.CourseLimit];
         }
-
         public string Id { set; get; }
-
         public string Name { set; get; }
-
         public float Cgpa { set; get; }
 
         public int CourseCount { set; get; }
@@ -40,7 +36,6 @@ namespace Lab2_StudentCourse
                     c.AddStudent(this);
             }
         }
-
         public void RemoveCourse(Course c)
         {
             if (c == this.courses[this.CourseCount - 1])
@@ -64,8 +59,6 @@ namespace Lab2_StudentCourse
                     this.courses[i] = this.courses[i + 1];
             }
         }
-
-
         public Course GetCourse(string id)
         {
             for (int i = 0; i < this.CourseCount; ++i)
@@ -74,7 +67,6 @@ namespace Lab2_StudentCourse
 
             return null;
         }
-
         public void PrintCourse()
         {
             for (int i = 0; i < this.CourseCount; ++i)
@@ -82,7 +74,6 @@ namespace Lab2_StudentCourse
                 this.courses[i].ShowCourseInfo();
             }
         }
-
         public void ShowInfo()
         {
             Console.WriteLine("Name: {0}", this.Name);
