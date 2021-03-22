@@ -1,0 +1,7 @@
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\Lab2_StudentCourse\bin\Debug\Lab2_StudentCourse.exe.config
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\Lab2_StudentCourse\bin\Debug\Lab2_StudentCourse.exe
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\Lab2_StudentCourse\bin\Debug\Lab2_StudentCourse.pdb
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\Lab2_StudentCourse\obj\Debug\Lab2_StudentCourse.csprojAssemblyReference.cache
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\Lab2_StudentCourse\obj\Debug\Lab2_StudentCourse.csproj.CoreCompileInputs.cache
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\Lab2_StudentCourse\obj\Debug\Lab2_StudentCourse.exe
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\Lab2_StudentCourse\obj\Debug\Lab2_StudentCourse.pdb
