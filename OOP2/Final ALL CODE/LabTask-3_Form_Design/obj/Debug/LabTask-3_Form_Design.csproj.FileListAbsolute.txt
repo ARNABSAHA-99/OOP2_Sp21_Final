@@ -1,0 +1,10 @@
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\LabTask-3_Form_Design\bin\Debug\LabTask-3_Form_Design.exe.config
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\LabTask-3_Form_Design\bin\Debug\LabTask-3_Form_Design.exe
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\LabTask-3_Form_Design\bin\Debug\LabTask-3_Form_Design.pdb
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\LabTask-3_Form_Design\obj\Debug\LabTask-3_Form_Design.csprojAssemblyReference.cache
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\LabTask-3_Form_Design\obj\Debug\LabTask_3_Form_Design.Form1.resources
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\LabTask-3_Form_Design\obj\Debug\LabTask_3_Form_Design.Properties.Resources.resources
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\LabTask-3_Form_Design\obj\Debug\LabTask-3_Form_Design.csproj.GenerateResource.cache
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\LabTask-3_Form_Design\obj\Debug\LabTask-3_Form_Design.csproj.CoreCompileInputs.cache
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\LabTask-3_Form_Design\obj\Debug\LabTask-3_Form_Design.exe
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\LabTask-3_Form_Design\obj\Debug\LabTask-3_Form_Design.pdb

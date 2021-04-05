@@ -1,0 +1,7 @@
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\Collections\bin\Debug\Collections.exe.config
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\Collections\bin\Debug\Collections.exe
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\Collections\bin\Debug\Collections.pdb
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\Collections\obj\Debug\Collections.csprojAssemblyReference.cache
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\Collections\obj\Debug\Collections.csproj.CoreCompileInputs.cache
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\Collections\obj\Debug\Collections.exe
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\Collections\obj\Debug\Collections.pdb

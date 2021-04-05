@@ -1,0 +1,7 @@
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\Generics\bin\Debug\Generics.exe.config
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\Generics\bin\Debug\Generics.exe
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\Generics\bin\Debug\Generics.pdb
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\Generics\obj\Debug\Generics.csprojAssemblyReference.cache
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\Generics\obj\Debug\Generics.csproj.CoreCompileInputs.cache
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\Generics\obj\Debug\Generics.exe
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\Generics\obj\Debug\Generics.pdb
