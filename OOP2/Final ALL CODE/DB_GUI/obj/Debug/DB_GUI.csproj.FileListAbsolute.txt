@@ -1,0 +1,10 @@
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\DB_GUI\bin\Debug\DB_GUI.exe.config
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\DB_GUI\bin\Debug\DB_GUI.exe
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\DB_GUI\bin\Debug\DB_GUI.pdb
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\DB_GUI\obj\Debug\DB_GUI.csprojAssemblyReference.cache
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\DB_GUI\obj\Debug\DB_GUI.Form1.resources
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\DB_GUI\obj\Debug\DB_GUI.Properties.Resources.resources
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\DB_GUI\obj\Debug\DB_GUI.csproj.GenerateResource.cache
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\DB_GUI\obj\Debug\DB_GUI.csproj.CoreCompileInputs.cache
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\DB_GUI\obj\Debug\DB_GUI.exe
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\DB_GUI\obj\Debug\DB_GUI.pdb

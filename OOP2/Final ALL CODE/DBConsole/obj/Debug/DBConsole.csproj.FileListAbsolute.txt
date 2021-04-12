@@ -1,0 +1,7 @@
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\DBConsole\bin\Debug\DBConsole.exe.config
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\DBConsole\bin\Debug\DBConsole.exe
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\DBConsole\bin\Debug\DBConsole.pdb
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\DBConsole\obj\Debug\DBConsole.csprojAssemblyReference.cache
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\DBConsole\obj\Debug\DBConsole.csproj.CoreCompileInputs.cache
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\DBConsole\obj\Debug\DBConsole.exe
+C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\DBConsole\obj\Debug\DBConsole.pdb

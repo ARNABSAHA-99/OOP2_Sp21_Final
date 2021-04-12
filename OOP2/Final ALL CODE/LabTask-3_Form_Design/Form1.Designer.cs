@@ -31,48 +31,47 @@ namespace LabTask_3_Form_Design
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtFirstname = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtLastname = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.cbMonth = new System.Windows.Forms.ComboBox();
+            this.cbDay = new System.Windows.Forms.ComboBox();
+            this.cbYear = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.label6 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtRetypeemail = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtRetypepassword = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.cbSecurityquestion = new System.Windows.Forms.ComboBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txtSecurityanswer = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.txtAddress = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.txtCity = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.cbState = new System.Windows.Forms.ComboBox();
             this.label20 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.txtZipcode = new System.Windows.Forms.TextBox();
             this.label22 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.txtPhone = new System.Windows.Forms.TextBox();
             this.label23 = new System.Windows.Forms.Label();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.cbMobile = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox12 = new System.Windows.Forms.TextBox();
+            this.rtOutput = new System.Windows.Forms.RichTextBox();
+            this.cbGender = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label1
@@ -97,13 +96,13 @@ namespace LabTask_3_Form_Design
             this.label2.TabIndex = 1;
             this.label2.Text = "First Name:";
             // 
-            // textBox1
+            // txtFirstname
             // 
-            this.textBox1.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(140, 55);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(287, 31);
-            this.textBox1.TabIndex = 2;
+            this.txtFirstname.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFirstname.Location = new System.Drawing.Point(140, 55);
+            this.txtFirstname.Name = "txtFirstname";
+            this.txtFirstname.Size = new System.Drawing.Size(287, 31);
+            this.txtFirstname.TabIndex = 2;
             // 
             // label3
             // 
@@ -115,13 +114,13 @@ namespace LabTask_3_Form_Design
             this.label3.TabIndex = 3;
             this.label3.Text = "Last Name:";
             // 
-            // textBox2
+            // txtLastname
             // 
-            this.textBox2.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(140, 106);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(287, 31);
-            this.textBox2.TabIndex = 4;
+            this.txtLastname.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtLastname.Location = new System.Drawing.Point(140, 106);
+            this.txtLastname.Name = "txtLastname";
+            this.txtLastname.Size = new System.Drawing.Size(287, 31);
+            this.txtLastname.TabIndex = 4;
             // 
             // label4
             // 
@@ -133,10 +132,10 @@ namespace LabTask_3_Form_Design
             this.label4.TabIndex = 5;
             this.label4.Text = "Date of Birth:";
             // 
-            // comboBox1
+            // cbMonth
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cbMonth.FormattingEnabled = true;
+            this.cbMonth.Items.AddRange(new object[] {
             "Jan",
             "Feb",
             "Mar",
@@ -149,16 +148,16 @@ namespace LabTask_3_Form_Design
             "Oct",
             "Nov",
             "Dec"});
-            this.comboBox1.Location = new System.Drawing.Point(168, 154);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 24);
-            this.comboBox1.TabIndex = 6;
-            this.comboBox1.Text = "Month";
+            this.cbMonth.Location = new System.Drawing.Point(168, 154);
+            this.cbMonth.Name = "cbMonth";
+            this.cbMonth.Size = new System.Drawing.Size(121, 24);
+            this.cbMonth.TabIndex = 6;
+            this.cbMonth.Text = "Month";
             // 
-            // comboBox2
+            // cbDay
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.cbDay.FormattingEnabled = true;
+            this.cbDay.Items.AddRange(new object[] {
             "01",
             "02",
             "03",
@@ -190,26 +189,26 @@ namespace LabTask_3_Form_Design
             "29",
             "30",
             "31"});
-            this.comboBox2.Location = new System.Drawing.Point(306, 154);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 24);
-            this.comboBox2.TabIndex = 7;
-            this.comboBox2.Text = "Day";
+            this.cbDay.Location = new System.Drawing.Point(306, 154);
+            this.cbDay.Name = "cbDay";
+            this.cbDay.Size = new System.Drawing.Size(121, 24);
+            this.cbDay.TabIndex = 7;
+            this.cbDay.Text = "Day";
             // 
-            // comboBox3
+            // cbYear
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.cbYear.FormattingEnabled = true;
+            this.cbYear.Items.AddRange(new object[] {
             "1997",
             "1998",
             "1999",
             "2000",
             "2001"});
-            this.comboBox3.Location = new System.Drawing.Point(455, 154);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(121, 24);
-            this.comboBox3.TabIndex = 8;
-            this.comboBox3.Text = "Year";
+            this.cbYear.Location = new System.Drawing.Point(455, 154);
+            this.cbYear.Name = "cbYear";
+            this.cbYear.Size = new System.Drawing.Size(121, 24);
+            this.cbYear.TabIndex = 8;
+            this.cbYear.Text = "Year";
             // 
             // label5
             // 
@@ -220,42 +219,6 @@ namespace LabTask_3_Form_Design
             this.label5.Size = new System.Drawing.Size(84, 23);
             this.label5.TabIndex = 9;
             this.label5.Text = "Gender:";
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(125, 202);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(76, 27);
-            this.radioButton1.TabIndex = 10;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Male";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(207, 202);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(98, 27);
-            this.radioButton2.TabIndex = 11;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Female";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton3
-            // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton3.Location = new System.Drawing.Point(311, 206);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(93, 27);
-            this.radioButton3.TabIndex = 12;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Others";
-            this.radioButton3.UseVisualStyleBackColor = true;
             // 
             // label6
             // 
@@ -279,13 +242,13 @@ namespace LabTask_3_Form_Design
             this.label9.TabIndex = 16;
             this.label9.Text = "Email:";
             // 
-            // textBox3
+            // txtEmail
             // 
-            this.textBox3.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(220, 300);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(254, 31);
-            this.textBox3.TabIndex = 17;
+            this.txtEmail.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEmail.Location = new System.Drawing.Point(220, 300);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(366, 31);
+            this.txtEmail.TabIndex = 17;
             // 
             // label7
             // 
@@ -308,13 +271,13 @@ namespace LabTask_3_Form_Design
             this.label8.TabIndex = 19;
             this.label8.Text = "Re-Type Email:";
             // 
-            // textBox4
+            // txtRetypeemail
             // 
-            this.textBox4.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(220, 366);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(254, 31);
-            this.textBox4.TabIndex = 20;
+            this.txtRetypeemail.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRetypeemail.Location = new System.Drawing.Point(220, 366);
+            this.txtRetypeemail.Name = "txtRetypeemail";
+            this.txtRetypeemail.Size = new System.Drawing.Size(366, 31);
+            this.txtRetypeemail.TabIndex = 20;
             // 
             // label10
             // 
@@ -327,14 +290,14 @@ namespace LabTask_3_Form_Design
             this.label10.Text = "Password:";
             this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
-            // textBox5
+            // txtPassword
             // 
-            this.textBox5.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(220, 417);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(254, 31);
-            this.textBox5.TabIndex = 22;
-            this.textBox5.UseSystemPasswordChar = true;
+            this.txtPassword.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPassword.Location = new System.Drawing.Point(220, 417);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(254, 31);
+            this.txtPassword.TabIndex = 22;
+            this.txtPassword.UseSystemPasswordChar = true;
             // 
             // label11
             // 
@@ -357,14 +320,14 @@ namespace LabTask_3_Form_Design
             this.label12.Text = "Re-Type Password:";
             this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
-            // textBox6
+            // txtRetypepassword
             // 
-            this.textBox6.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(220, 479);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(254, 31);
-            this.textBox6.TabIndex = 25;
-            this.textBox6.UseSystemPasswordChar = true;
+            this.txtRetypepassword.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRetypepassword.Location = new System.Drawing.Point(220, 479);
+            this.txtRetypepassword.Name = "txtRetypepassword";
+            this.txtRetypepassword.Size = new System.Drawing.Size(254, 31);
+            this.txtRetypepassword.TabIndex = 25;
+            this.txtRetypepassword.UseSystemPasswordChar = true;
             // 
             // label13
             // 
@@ -377,18 +340,18 @@ namespace LabTask_3_Form_Design
             this.label13.Text = "Security Question:";
             this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
-            // comboBox4
+            // cbSecurityquestion
             // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
+            this.cbSecurityquestion.FormattingEnabled = true;
+            this.cbSecurityquestion.Items.AddRange(new object[] {
             "Are you a verified user?",
             "Are you robot?"});
-            this.comboBox4.Location = new System.Drawing.Point(220, 531);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(207, 24);
-            this.comboBox4.TabIndex = 27;
-            this.comboBox4.Text = "Choose a security question";
-            this.comboBox4.SelectedIndexChanged += new System.EventHandler(this.comboBox4_SelectedIndexChanged);
+            this.cbSecurityquestion.Location = new System.Drawing.Point(220, 531);
+            this.cbSecurityquestion.Name = "cbSecurityquestion";
+            this.cbSecurityquestion.Size = new System.Drawing.Size(207, 24);
+            this.cbSecurityquestion.TabIndex = 27;
+            this.cbSecurityquestion.Text = "Choose a security question";
+            this.cbSecurityquestion.SelectedIndexChanged += new System.EventHandler(this.comboBox4_SelectedIndexChanged);
             // 
             // label14
             // 
@@ -401,13 +364,13 @@ namespace LabTask_3_Form_Design
             this.label14.Text = "Security Answer:";
             this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
-            // textBox7
+            // txtSecurityanswer
             // 
-            this.textBox7.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(220, 579);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(254, 31);
-            this.textBox7.TabIndex = 29;
+            this.txtSecurityanswer.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSecurityanswer.Location = new System.Drawing.Point(220, 579);
+            this.txtSecurityanswer.Name = "txtSecurityanswer";
+            this.txtSecurityanswer.Size = new System.Drawing.Size(254, 31);
+            this.txtSecurityanswer.TabIndex = 29;
             // 
             // label15
             // 
@@ -441,13 +404,13 @@ namespace LabTask_3_Form_Design
             this.label17.TabIndex = 32;
             this.label17.Text = "Address:";
             // 
-            // textBox8
+            // txtAddress
             // 
-            this.textBox8.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(220, 711);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(254, 31);
-            this.textBox8.TabIndex = 33;
+            this.txtAddress.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAddress.Location = new System.Drawing.Point(220, 711);
+            this.txtAddress.Name = "txtAddress";
+            this.txtAddress.Size = new System.Drawing.Size(254, 31);
+            this.txtAddress.TabIndex = 33;
             // 
             // label18
             // 
@@ -459,13 +422,13 @@ namespace LabTask_3_Form_Design
             this.label18.TabIndex = 34;
             this.label18.Text = "City:";
             // 
-            // textBox9
+            // txtCity
             // 
-            this.textBox9.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(220, 760);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(254, 31);
-            this.textBox9.TabIndex = 35;
+            this.txtCity.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCity.Location = new System.Drawing.Point(220, 760);
+            this.txtCity.Name = "txtCity";
+            this.txtCity.Size = new System.Drawing.Size(254, 31);
+            this.txtCity.TabIndex = 35;
             // 
             // label19
             // 
@@ -477,10 +440,10 @@ namespace LabTask_3_Form_Design
             this.label19.TabIndex = 36;
             this.label19.Text = "State:";
             // 
-            // comboBox5
+            // cbState
             // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Items.AddRange(new object[] {
+            this.cbState.FormattingEnabled = true;
+            this.cbState.Items.AddRange(new object[] {
             "Dhaka",
             "Gazipur",
             "Narayangonj",
@@ -488,11 +451,11 @@ namespace LabTask_3_Form_Design
             "Rajshahi",
             "Pabna",
             "Chottogram"});
-            this.comboBox5.Location = new System.Drawing.Point(220, 817);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(144, 24);
-            this.comboBox5.TabIndex = 37;
-            this.comboBox5.Text = "Choose a state";
+            this.cbState.Location = new System.Drawing.Point(220, 817);
+            this.cbState.Name = "cbState";
+            this.cbState.Size = new System.Drawing.Size(144, 24);
+            this.cbState.TabIndex = 37;
+            this.cbState.Text = "Choose a state";
             // 
             // label20
             // 
@@ -504,13 +467,13 @@ namespace LabTask_3_Form_Design
             this.label20.TabIndex = 38;
             this.label20.Text = "Zip Code:";
             // 
-            // textBox10
+            // txtZipcode
             // 
-            this.textBox10.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(220, 865);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(112, 31);
-            this.textBox10.TabIndex = 39;
+            this.txtZipcode.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtZipcode.Location = new System.Drawing.Point(220, 865);
+            this.txtZipcode.Name = "txtZipcode";
+            this.txtZipcode.Size = new System.Drawing.Size(112, 31);
+            this.txtZipcode.TabIndex = 39;
             // 
             // label22
             // 
@@ -523,13 +486,13 @@ namespace LabTask_3_Form_Design
             this.label22.Text = "Phone:";
             this.label22.Click += new System.EventHandler(this.label22_Click);
             // 
-            // textBox11
+            // txtPhone
             // 
-            this.textBox11.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox11.Location = new System.Drawing.Point(220, 921);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(254, 31);
-            this.textBox11.TabIndex = 42;
+            this.txtPhone.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPhone.Location = new System.Drawing.Point(220, 921);
+            this.txtPhone.Name = "txtPhone";
+            this.txtPhone.Size = new System.Drawing.Size(254, 31);
+            this.txtPhone.TabIndex = 42;
             // 
             // label23
             // 
@@ -542,20 +505,20 @@ namespace LabTask_3_Form_Design
             this.label23.Text = "(No space or dash)";
             this.label23.Click += new System.EventHandler(this.label23_Click);
             // 
-            // comboBox6
+            // cbMobile
             // 
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Items.AddRange(new object[] {
+            this.cbMobile.FormattingEnabled = true;
+            this.cbMobile.Items.AddRange(new object[] {
             "GP",
             "Airtel",
             "Robi",
             "Banglalink",
             "Teletalk"});
-            this.comboBox6.Location = new System.Drawing.Point(480, 928);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(121, 24);
-            this.comboBox6.TabIndex = 44;
-            this.comboBox6.Text = "Mobile";
+            this.cbMobile.Location = new System.Drawing.Point(480, 928);
+            this.cbMobile.Name = "cbMobile";
+            this.cbMobile.Size = new System.Drawing.Size(121, 24);
+            this.cbMobile.TabIndex = 44;
+            this.cbMobile.Text = "Mobile";
             // 
             // button1
             // 
@@ -566,6 +529,7 @@ namespace LabTask_3_Form_Design
             this.button1.TabIndex = 45;
             this.button1.Text = "Submit";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.SubmitClick);
             // 
             // textBox12
             // 
@@ -579,55 +543,76 @@ namespace LabTask_3_Form_Design
             this.textBox12.Text = "Optional";
             this.textBox12.TextChanged += new System.EventHandler(this.textBox12_TextChanged);
             // 
+            // rtOutput
+            // 
+            this.rtOutput.Font = new System.Drawing.Font("Cambria", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rtOutput.Location = new System.Drawing.Point(737, 12);
+            this.rtOutput.Name = "rtOutput";
+            this.rtOutput.Size = new System.Drawing.Size(444, 572);
+            this.rtOutput.TabIndex = 48;
+            this.rtOutput.Text = "";
+            // 
+            // cbGender
+            // 
+            this.cbGender.FormattingEnabled = true;
+            this.cbGender.Items.AddRange(new object[] {
+            "Male",
+            "Female",
+            "Others"});
+            this.cbGender.Location = new System.Drawing.Point(157, 206);
+            this.cbGender.Name = "cbGender";
+            this.cbGender.Size = new System.Drawing.Size(139, 24);
+            this.cbGender.TabIndex = 49;
+            this.cbGender.Text = "Choose a gender";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1130, 1055);
+            this.ClientSize = new System.Drawing.Size(1298, 1055);
+            this.Controls.Add(this.cbGender);
+            this.Controls.Add(this.rtOutput);
             this.Controls.Add(this.textBox12);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox6);
+            this.Controls.Add(this.cbMobile);
             this.Controls.Add(this.label23);
-            this.Controls.Add(this.textBox11);
+            this.Controls.Add(this.txtPhone);
             this.Controls.Add(this.label22);
-            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.txtZipcode);
             this.Controls.Add(this.label20);
-            this.Controls.Add(this.comboBox5);
+            this.Controls.Add(this.cbState);
             this.Controls.Add(this.label19);
-            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.txtCity);
             this.Controls.Add(this.label18);
-            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.txtAddress);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label15);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.txtSecurityanswer);
             this.Controls.Add(this.label14);
-            this.Controls.Add(this.comboBox4);
+            this.Controls.Add(this.cbSecurityquestion);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.txtRetypepassword);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.txtRetypeemail);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.radioButton3);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cbYear);
+            this.Controls.Add(this.cbDay);
+            this.Controls.Add(this.cbMonth);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtLastname);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtFirstname);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
@@ -641,48 +626,47 @@ namespace LabTask_3_Form_Design
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtFirstname;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtLastname;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox cbMonth;
+        private System.Windows.Forms.ComboBox cbDay;
+        private System.Windows.Forms.ComboBox cbYear;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtRetypeemail;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtRetypepassword;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.ComboBox cbSecurityquestion;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txtSecurityanswer;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox txtAddress;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox txtCity;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.ComboBox comboBox5;
+        private System.Windows.Forms.ComboBox cbState;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox txtZipcode;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox txtPhone;
         private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.ComboBox comboBox6;
+        private System.Windows.Forms.ComboBox cbMobile;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.RichTextBox rtOutput;
+        private System.Windows.Forms.ComboBox cbGender;
     }
 }
 
