@@ -106,6 +106,7 @@ namespace DB_GUI
             this.dtCourses.RowTemplate.Height = 24;
             this.dtCourses.Size = new System.Drawing.Size(456, 231);
             this.dtCourses.TabIndex = 5;
+            this.dtCourses.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtCourses_CellContentClick);
             // 
             // loadData
             // 

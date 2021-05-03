@@ -177,6 +177,11 @@ namespace DB_GUI
             var courses = GetAllCourses();
             dtCourses.DataSource = courses;
         }
+
+        private void dtCourses_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
     
 }
