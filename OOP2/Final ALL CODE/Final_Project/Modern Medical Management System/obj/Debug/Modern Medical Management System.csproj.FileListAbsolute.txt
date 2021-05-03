@@ -55,20 +55,20 @@ C:\Users\Asus\OneDrive\Desktop\oop2 project till monday dupur\Modern Medical Man
 C:\Users\Asus\OneDrive\Desktop\oop2 project till monday dupur\Modern Medical Management System\Modern Medical Management System\obj\Debug\Modern_Medical_Management_System.EditPatient.resources
 C:\Users\Asus\OneDrive\Desktop\oop2 project till monday dupur\Modern Medical Management System\Modern Medical Management System\obj\Debug\Modern_Medical_Management_System.ShowPatient.resources
 C:\Users\Asus\OneDrive\Desktop\oop2 project till monday dupur\Modern Medical Management System\Modern Medical Management System\obj\Debug\Modern_Medical_Management_System.ShowAllDoctor.resources
-C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\Modern_Medical_Management_System_Doctor\Modern Medical Management System\bin\Debug\Modern Medical Management System.exe.config
-C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\Modern_Medical_Management_System_Doctor\Modern Medical Management System\bin\Debug\Modern Medical Management System.exe
-C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\Modern_Medical_Management_System_Doctor\Modern Medical Management System\bin\Debug\Modern Medical Management System.pdb
-C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\Modern_Medical_Management_System_Doctor\Modern Medical Management System\obj\Debug\Modern Medical Management System.csprojAssemblyReference.cache
-C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\Modern_Medical_Management_System_Doctor\Modern Medical Management System\obj\Debug\Modern_Medical_Management_System.AddPatient.resources
-C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\Modern_Medical_Management_System_Doctor\Modern Medical Management System\obj\Debug\Modern_Medical_Management_System.DashBord.resources
-C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\Modern_Medical_Management_System_Doctor\Modern Medical Management System\obj\Debug\Modern_Medical_Management_System.DeletePatient.resources
-C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\Modern_Medical_Management_System_Doctor\Modern Medical Management System\obj\Debug\Modern_Medical_Management_System.EditPatient.resources
-C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\Modern_Medical_Management_System_Doctor\Modern Medical Management System\obj\Debug\Modern_Medical_Management_System.Login.resources
-C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\Modern_Medical_Management_System_Doctor\Modern Medical Management System\obj\Debug\Modern_Medical_Management_System.Registration.resources
-C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\Modern_Medical_Management_System_Doctor\Modern Medical Management System\obj\Debug\Modern_Medical_Management_System.Properties.Resources.resources
-C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\Modern_Medical_Management_System_Doctor\Modern Medical Management System\obj\Debug\Modern_Medical_Management_System.ShowAllDoctor.resources
-C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\Modern_Medical_Management_System_Doctor\Modern Medical Management System\obj\Debug\Modern_Medical_Management_System.ShowPatient.resources
-C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\Modern_Medical_Management_System_Doctor\Modern Medical Management System\obj\Debug\Modern Medical Management System.csproj.GenerateResource.cache
-C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\Modern_Medical_Management_System_Doctor\Modern Medical Management System\obj\Debug\Modern Medical Management System.csproj.CoreCompileInputs.cache
-C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\Modern_Medical_Management_System_Doctor\Modern Medical Management System\obj\Debug\Modern Medical Management System.exe
-C:\Users\Asus\OneDrive\Desktop\OOP2\Final ALL CODE\Modern_Medical_Management_System_Doctor\Modern Medical Management System\obj\Debug\Modern Medical Management System.pdb
+D:\oop2 project Last updated\Modern Medical Management System\Modern Medical Management System\bin\Debug\Modern Medical Management System.exe.config
+D:\oop2 project Last updated\Modern Medical Management System\Modern Medical Management System\bin\Debug\Modern Medical Management System.exe
+D:\oop2 project Last updated\Modern Medical Management System\Modern Medical Management System\bin\Debug\Modern Medical Management System.pdb
+D:\oop2 project Last updated\Modern Medical Management System\Modern Medical Management System\obj\Debug\Modern Medical Management System.csprojAssemblyReference.cache
+D:\oop2 project Last updated\Modern Medical Management System\Modern Medical Management System\obj\Debug\Modern_Medical_Management_System.AddPatient.resources
+D:\oop2 project Last updated\Modern Medical Management System\Modern Medical Management System\obj\Debug\Modern_Medical_Management_System.DashBord.resources
+D:\oop2 project Last updated\Modern Medical Management System\Modern Medical Management System\obj\Debug\Modern_Medical_Management_System.DeletePatient.resources
+D:\oop2 project Last updated\Modern Medical Management System\Modern Medical Management System\obj\Debug\Modern_Medical_Management_System.EditPatient.resources
+D:\oop2 project Last updated\Modern Medical Management System\Modern Medical Management System\obj\Debug\Modern_Medical_Management_System.Login.resources
+D:\oop2 project Last updated\Modern Medical Management System\Modern Medical Management System\obj\Debug\Modern_Medical_Management_System.Registration.resources
+D:\oop2 project Last updated\Modern Medical Management System\Modern Medical Management System\obj\Debug\Modern_Medical_Management_System.Properties.Resources.resources
+D:\oop2 project Last updated\Modern Medical Management System\Modern Medical Management System\obj\Debug\Modern_Medical_Management_System.ShowAllDoctor.resources
+D:\oop2 project Last updated\Modern Medical Management System\Modern Medical Management System\obj\Debug\Modern_Medical_Management_System.ShowPatient.resources
+D:\oop2 project Last updated\Modern Medical Management System\Modern Medical Management System\obj\Debug\Modern Medical Management System.csproj.GenerateResource.cache
+D:\oop2 project Last updated\Modern Medical Management System\Modern Medical Management System\obj\Debug\Modern Medical Management System.csproj.CoreCompileInputs.cache
+D:\oop2 project Last updated\Modern Medical Management System\Modern Medical Management System\obj\Debug\Modern Medical Management System.exe
+D:\oop2 project Last updated\Modern Medical Management System\Modern Medical Management System\obj\Debug\Modern Medical Management System.pdb

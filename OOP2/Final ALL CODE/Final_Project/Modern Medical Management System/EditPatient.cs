@@ -87,10 +87,10 @@ namespace Modern_Medical_Management_System
                 tbUpdatePage.Text = p.Patient_Age;
                 tbUpdatePweight.Text = p.Patient_Weight;
                 tbUpdatePdob.Text = p.Patient_Date_of_Birth;
-            }
+        }
 
             else {MessageBox.Show(errMsg); }
-        }
+}
 
 
         //after click the update button

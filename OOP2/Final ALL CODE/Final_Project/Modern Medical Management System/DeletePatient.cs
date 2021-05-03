@@ -143,7 +143,6 @@ namespace Modern_Medical_Management_System
                 //delete patient id info which is currently show in the search box
                 int id = Int32.Parse(tbDeleteSearch.Text); 
                 string query = "delete from patient where id = " + id;
-
                 SqlCommand cmd = new SqlCommand(query, conn);
                 int row = cmd.ExecuteNonQuery();
                 if (row > 0)
